@@ -1,6 +1,6 @@
 import { HabitCategory, type Habit } from "../../types/habit.types";
 import { CATEGORY_COLORS, CATEGORY_ICONS, CATEGORY_NAMES } from "../../utils/constants";
-
+import './../../index.css'
 
 interface HabitCardProps {
     habit: Habit, 
