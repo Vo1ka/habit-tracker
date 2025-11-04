@@ -13,9 +13,7 @@ export const calculateCurrentStreak = (
         logsMap.set(log.date, log.completed);
     });
 
-    const today = getTodayDate();
-    const todayCompleted = logsMap.get(today) === true;
-    let streak = todayCompleted ? 1 : 0;
+    let streak = 0
 
     for(let i = 0; i < 365; i++){
         const dateToCheck = getDaysAgo(i);

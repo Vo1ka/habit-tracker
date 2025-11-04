@@ -2,6 +2,7 @@ import { HabitCard } from "./HabitCard";
 import { useAppDispatch, useAppSelector } from "../../store/hooks";
 import { getTodayDate } from "../../utils/dateHelpers";
 import { removeHabit, toggleHabitCompletion } from "../../store/slices/habitsSlice";
+import { HabitStats } from "../HabitStats/HabitStats";
 
 
 export function HabitList () {
